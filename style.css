@@ -125,11 +125,15 @@ form button {
   border-radius: 10px;
   
   transition: all ease-in-out .2s ;
+
+  filter: grayscale(100%);
+    
 }
 
 .Result div img:hover {
   
   transform: scale(1.2);
+  filter: grayscale(0%);
 }
 
 .preview-img {
